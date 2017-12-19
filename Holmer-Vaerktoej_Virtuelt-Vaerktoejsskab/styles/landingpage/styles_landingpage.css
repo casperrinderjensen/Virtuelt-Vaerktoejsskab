@@ -1,0 +1,959 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Roboto', sans-serif; 
+	background: #353535;
+}
+
+
+
+/* TABLET LIGGENDE HERUNDER */ 
+
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+
+	nav {
+		width: 100%;
+		height: 160px;
+		background: #353535;
+	}
+	
+	nav .logo {
+		width: 55%;
+	}
+	
+	nav .logo img {
+		width: 90%;
+		padding-left: 20px;
+		padding-top: 35px;
+	}
+	
+	nav .navigation {
+		width: 20%;
+	}
+	
+	nav .navigation .cart {
+		width: 40%;
+		padding: 10px;
+		margin-top: 35px;
+		margin-left: 85px;
+	}
+	
+	nav .logout {
+		width: 10%;
+	}
+	
+	
+	nav .logout .logout_btn {
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+		background-color: #E4E4E4;
+		border: 1px solid #95989A;
+		margin-top: 27px;
+		margin-left: 104px;
+		font-size: 1.1em;
+		font-weight: bold;
+		outline: none;
+	}
+	
+	.search-container {
+		width: 100%;
+		height: 120px;
+		background-color: #5F5F5F;
+		text-align: center;
+	}
+	
+	.search-container form {
+		padding-top: 33px;
+	}
+	
+	.search-container form input {
+		width: 70%;
+		height: 50px;
+		text-align: center;
+		font-size: 1.2em;
+		outline: none;
+		border: none; 
+		border-radius: 5px 0px 0px 5px;
+	}
+	
+	.search-container form button {
+		background-color: #E4E4E4;
+		color: #353535;
+		border: none;
+		border-radius: 0px 5px 5px 0px;
+		font-size: 1.1em;
+		height: 52px;
+		padding-top: 4px;
+		outline: none;
+	}
+	
+	.header {
+		width: 100%;
+		height: 85px;
+		background-color: #E4E4E4;
+	}
+	
+	.header h1 {
+		font-weight: bold;
+		color: #353535;
+		font-size: 1.5em;
+		padding-left: 20px;
+		padding-top: 32px;
+	}
+	
+	a {
+		color: #353535;
+	}
+	
+	.category {
+		width: 100%;
+		height: 140px;
+		background-color: #E4E4E4;
+		border-top: 2px solid #5F5F5F;
+	}
+	
+	.category .hand {
+		text-align: center;
+		padding-top: 37px;
+	}
+	
+	.category .hand img {
+		width: 22%;
+	}
+	
+	.category .el {
+		text-align: center;
+		padding-top: 37px;
+	}
+	
+	.category .el img {
+		width: 26%;
+	}
+	
+	.category .screws {
+		text-align: center;
+		padding-top: 37px;
+	}
+	
+	.category .screws img {
+		width: 25%;
+	}
+	
+	.category .text {
+		text-align: center;
+		font-weight: bold;
+		color: #353535;
+		padding-top: 58px;
+	}
+	
+	.category .text h2 {
+		font-size: 1.5em;
+	}
+	
+	.category .arrow {
+		text-align: center;
+	}
+	
+	.category .arrow img {
+		width: 10%;
+		padding-top: 40px;
+	}
+	
+	.category4 {
+		width: 100%;
+		height: 140px;
+		background-color: #E4E4E4;
+		border-top: 2px solid #5F5F5F;
+		border-bottom: 2px solid #5F5F5F;
+	}
+	
+	.category4 .brush {
+		text-align: center;
+		padding-top: 26px;
+	}
+	
+	.category4 .brush img {
+		width: 29%;
+	}
+	
+	.category4 .text {
+		text-align: center;
+		font-weight: bold;
+		color: #353535;
+		padding-top: 58px;
+	}
+	
+	.category4 .text h2 {
+		font-size: 1.5em;
+	}
+	
+	.category4 .arrow {
+		text-align: center;
+	}
+	
+	.category4 .arrow img {
+		width: 10%;
+		padding-top: 40px;
+	}
+	
+	
+	
+	
+	
+	
+	
+	/* HVIS MAN IKKE ER LOGGET IND */
+	
+	.fail {
+		padding-top: 110px;
+		text-align: center;
+	}
+	
+	.fail img {
+		width: 80%;
+	}
+	
+	.fail h1 {
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 50px;
+		font-size: 1.8em;
+		color: #E4E4E4;
+		
+	}
+	
+	.login_btn {
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	.login_btn button {
+		background-color: #019390;
+		width: 72%;
+		height: 70px;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		color: #fafafa;
+		font-size: 1.5em;
+	}
+	
+
+
+}
+
+
+
+
+
+
+/* TABLET HERUNDER */ 
+
+
+@media screen and (max-width: 1023px) and (min-width: 737px) {
+
+	nav {
+		width: 100%;
+		height: 160px;
+		background: #353535;
+	}
+	
+	nav .logo {
+		width: 55%;
+	}
+	
+	nav .logo img {
+		width: 100%;
+		padding-left: 20px;
+		padding-top: 40px;
+	}
+	
+	nav .navigation {
+		width: 20%;
+	}
+	
+	nav .navigation .cart {
+		width: 50%;
+		padding: 10px;
+		margin-top: 35px;
+		margin-left: 65px;
+	}
+	
+	nav .logout {
+		width: 10%;
+	}
+	
+	
+	nav .logout .logout_btn {
+		height: 97px;
+		width: 97px;
+		border-radius: 50%;
+		background-color: #E4E4E4;
+		border: 1px solid #95989A;
+		margin-top: 30px;
+		margin-left: 64px;
+		font-size: 1.1em;
+		font-weight: bold;
+		outline: none;
+	}
+	
+	.search-container {
+		width: 100%;
+		height: 120px;
+		background-color: #5F5F5F;
+		text-align: center;
+	}
+	
+	.search-container form {
+		padding-top: 33px;
+	}
+	
+	.search-container form input {
+		width: 70%;
+		height: 50px;
+		text-align: center;
+		font-size: 1.2em;
+		outline: none;
+		border: none; 
+		border-radius: 5px 0px 0px 5px;
+	}
+	
+	.search-container form button {
+		background-color: #E4E4E4;
+		color: #353535;
+		border: none;
+		border-radius: 0px 5px 5px 0px;
+		font-size: 1.1em;
+		height: 52px;
+		padding-top: 4px;
+		outline: none;
+	}
+	
+	.header {
+		width: 100%;
+		height: 85px;
+		background-color: #E4E4E4;
+	}
+	
+	.header h1 {
+		font-weight: bold;
+		color: #353535;
+		font-size: 1.5em;
+		padding-left: 20px;
+		padding-top: 32px;
+	}
+	
+	a {
+		color: #353535;
+	}
+	
+	.category {
+		width: 100%;
+		height: 140px;
+		background-color: #E4E4E4;
+		border-top: 2px solid #5F5F5F;
+	}
+	
+	.category .hand {
+		text-align: center;
+		padding-top: 37px;
+	}
+	
+	.category .hand img {
+		width: 30%;
+	}
+	
+	.category .el {
+		text-align: center;
+		padding-top: 37px;
+	}
+	
+	.category .el img {
+		width: 34%;
+	}
+	
+	.category .screws {
+		text-align: center;
+		padding-top: 37px;
+	}
+	
+	.category .screws img {
+		width: 33%;
+	}
+	
+	.category .text {
+		text-align: center;
+		font-weight: bold;
+		color: #353535;
+		padding-top: 58px;
+	}
+	
+	.category .text h2 {
+		font-size: 1.5em;
+	}
+	
+	.category .arrow {
+		text-align: center;
+	}
+	
+	.category .arrow img {
+		width: 13%;
+		padding-top: 40px;
+	}
+	
+	.category4 {
+		width: 100%;
+		height: 140px;
+		background-color: #E4E4E4;
+		border-top: 2px solid #5F5F5F;
+		border-bottom: 2px solid #5F5F5F;
+	}
+	
+	.category4 .brush {
+		text-align: center;
+		padding-top: 26px;
+	}
+	
+	.category4 .brush img {
+		width: 37%;
+	}
+	
+	.category4 .text {
+		text-align: center;
+		font-weight: bold;
+		color: #353535;
+		padding-top: 58px;
+	}
+	
+	.category4 .text h2 {
+		font-size: 1.5em;
+	}
+	
+	.category4 .arrow {
+		text-align: center;
+	}
+	
+	.category4 .arrow img {
+		width: 13%;
+		padding-top: 40px;
+	}
+	
+	
+	
+	
+	
+	
+	/* HVIS MAN IKKE ER LOGGET IND */
+	
+	.fail {
+		padding-top: 200px;
+		text-align: center;
+	}
+	
+	.fail img {
+		width: 80%;
+	}
+	
+	.fail h1 {
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 50px;
+		font-size: 1.4em;
+		color: #E4E4E4;
+		
+	}
+	
+	.login_btn {
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	.login_btn button {
+		background-color: #019390;
+		width: 73%;
+		height: 70px;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		color: #fafafa;
+		font-size: 1.5em;
+	}
+	
+
+}
+
+
+
+
+
+/* SMARTPHONE LIGGENDE HERUNDE */
+
+
+@media screen and (max-width: 736px) and (min-width: 416px) {
+	
+	nav {
+		width: 100%;
+		height: 100px;
+		background: #353535;
+	}
+	
+	nav .logo {
+		width: 55%;
+	}
+	
+	nav .logo img {
+		width: 85%;
+		padding-left: 15px;
+		padding-top: 20px;
+	}
+	
+	nav .navigation {
+		width: 20%;
+	}
+	
+	nav .navigation .cart {
+		width: 40%;
+		padding: 10px;
+		margin-top: 13px;
+		margin-left: 55px;
+	}
+	
+	nav .logout {
+		width: 10%;
+	}
+	
+	
+	nav .logout .logout_btn {
+		height: 67px;
+		width: 67px;
+		border-radius: 50%;
+		background-color: #E4E4E4;
+		border: 1px solid #95989A;
+		margin-top: 16px;
+		margin-left: 64px;
+		font-size: 0.7em;
+		font-weight: bold;
+		outline: none;
+	}
+	
+	.search-container {
+		width: 100%;
+		height: 90px;
+		background-color: #5F5F5F;
+		text-align: center;
+	}
+	
+	.search-container form {
+		padding-top: 30px;
+	}
+	
+	.search-container form input {
+		width: 60%;
+		height: 30px;
+		text-align: center;
+		font-size: 0.9em;
+		outline: none;
+		border: none; 
+		border-radius: 5px 0px 0px 5px;
+	}
+	
+	.search-container form button {
+		background-color: #E4E4E4;
+		color: #353535;
+		border: none;
+		border-radius: 0px 5px 5px 0px;
+		font-size: 1.1em;
+		height: 32px;
+		padding-top: 0px;
+		outline: none;
+	}
+	
+	.header {
+		width: 100%;
+		height: 65px;
+		background-color: #E4E4E4;
+	}
+	
+	.header h1 {
+		font-weight: bold;
+		color: #353535;
+		font-size: 1.1em;
+		padding-left: 15px;
+		padding-top: 26px;
+	}
+	
+	a {
+		color: #353535;
+	}
+	
+	.category {
+		width: 100%;
+		height: 110px;
+		background-color: #E4E4E4;
+		border-top: 2px solid #5F5F5F;
+	}
+	
+	.category .hand {
+		text-align: center;
+		padding-top: 28px;
+	}
+	
+	.category .hand img {
+		width: 25%;
+	}
+	
+	.category .el {
+		text-align: center;
+		padding-top: 28px;
+	}
+	
+	.category .el img {
+		width: 28%;
+	}
+	
+	.category .screws {
+		text-align: center;
+		padding-top: 28px;
+	}
+	
+	.category .screws img {
+		width: 28%;
+	}
+	
+	.category .text {
+		text-align: center;
+		font-weight: bold;
+		color: #353535;
+		padding-top: 47px;
+	}
+	
+	.category .arrow {
+		text-align: center;
+	}
+	
+	.category .arrow img {
+		width: 12%;
+		padding-top: 30px;
+	}
+	
+	.category4 {
+		width: 100%;
+		height: 110px;
+		background-color: #E4E4E4;
+		border-top: 2px solid #5F5F5F;
+		border-bottom: 2px solid #5F5F5F;
+	}
+	
+	.category4 .brush {
+		text-align: center;
+		padding-top: 23px;
+	}
+	
+	.category4 .brush img {
+		width: 30%;
+	}
+	
+	.category4 .text {
+		text-align: center;
+		font-weight: bold;
+		color: #353535;
+		padding-top: 47px;
+	}
+	
+	.category4 .arrow {
+		text-align: center;
+	}
+	
+	.category4 .arrow img {
+		width: 12%;
+		padding-top: 30px;
+	}
+	
+	
+	
+	
+	
+	/* HVIS MAN IKKE ER LOGGET IND */
+	
+	.fail {
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	.fail img {
+		width: 65%;
+	}
+	
+	.fail h1 {
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 50px;
+		font-size: 1.1em;
+		color: #E4E4E4;
+		
+	}
+	
+	.login_btn {
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	.login_btn button {
+		background-color: #019390;
+		width: 77%;
+		height: 60px;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		color: #fafafa;
+		font-size: 1.2em;
+	}
+	
+
+}
+
+
+
+
+/* SMARTPHONE HERUNDER */
+
+
+
+@media screen and (max-width: 415px) and (min-width: 320px) {
+	
+	nav {
+		width: 100%;
+		height: 100px;
+		background: #353535;
+	}
+	
+	nav .logo {
+		width: 55%;
+	}
+	
+	nav .logo img {
+		width: 90%;
+		padding-left: 15px;
+		padding-top: 30px;
+	}
+	
+	nav .navigation {
+		width: 20%;
+	}
+	
+	nav .navigation .cart {
+		width: 48%;
+		padding: 10px;
+		margin-top: 20px;
+		margin-left: 17px;
+	}
+	
+	nav .logout {
+		width: 10%;
+	}
+	
+	
+	nav .logout .logout_btn {
+		height: 67px;
+		width: 67px;
+		border-radius: 50%;
+		background-color: #E4E4E4;
+		border: 1px solid #95989A;
+		margin-top: 16px;
+		margin-left: 14px;
+		font-size: 0.6em;
+		font-weight: bold;
+		outline: none;
+	}
+	
+	
+	
+	
+	
+	
+	.search-container {
+		width: 100%;
+		height: 90px;
+		background-color: #5F5F5F;
+		text-align: center;
+	}
+	
+	.search-container form {
+		padding-top: 30px;
+	}
+	
+	.search-container form input {
+		width: 60%;
+		height: 30px;
+		text-align: center;
+		font-size: 0.9em;
+		outline: none;
+		border: none; 
+		border-radius: 5px 0px 0px 5px;
+	}
+	
+	.search-container form button {
+		background-color: #E4E4E4;
+		color: #353535;
+		border: none;
+		border-radius: 0px 5px 5px 0px;
+		font-size: 1.1em;
+		height: 35px;
+		padding-top: 4px;
+		padding-bottom: 9px;
+		outline: none;
+	}
+	
+	.header {
+		width: 100%;
+		height: 65px;
+		background-color: #E4E4E4;
+	}
+	
+	.header h1 {
+		font-weight: bold;
+		color: #353535;
+		font-size: 1.1em;
+		padding-left: 15px;
+		padding-top: 26px;
+	}
+	
+	a {
+		color: #353535;
+	}
+	
+	.category {
+		width: 100%;
+		height: 110px;
+		background-color: #E4E4E4;
+		border-top: 2px solid #5F5F5F;
+	}
+	
+	.category .hand {
+		text-align: center;
+		padding-top: 32px;
+	}
+	
+	.category .hand img {
+		width: 35%;
+	}
+	
+	.category .el {
+		text-align: center;
+		padding-top: 32px;
+	}
+	
+	.category .el img {
+		width: 42%;
+	}
+	
+	.category .screws {
+		text-align: center;
+		padding-top: 32px;
+	}
+	
+	.category .screws img {
+		width: 40%;
+	}
+	
+	.category .text {
+		text-align: center;
+		font-weight: bold;
+		color: #353535;
+		padding-top: 47px;
+	}
+	
+	.category .arrow {
+		text-align: center;
+	}
+	
+	.category .arrow img {
+		width: 17%;
+		padding-top: 36px;
+	}
+	
+	.category4 {
+		width: 100%;
+		height: 110px;
+		background-color: #E4E4E4;
+		border-top: 2px solid #5F5F5F;
+		border-bottom: 2px solid #5F5F5F;
+	}
+	
+	.category4 .brush {
+		text-align: center;
+		padding-top: 26px;
+	}
+	
+	.category4 .brush img {
+		width: 45%;
+	}
+	
+	.category4 .text {
+		text-align: center;
+		font-weight: bold;
+		color: #353535;
+		padding-top: 47px;
+	}
+	
+	.category4 .arrow {
+		text-align: center;
+	}
+	
+	.category4 .arrow img {
+		width: 17%;
+		padding-top: 36px;
+	}
+	
+	
+	
+	
+	
+	
+	/* HVIS MAN IKKE ER LOGGET IND */
+	
+	.fail {
+		padding-top: 135px;
+		text-align: center;
+	}
+	
+	.fail img {
+		width: 95%;
+	}
+	
+	.fail h1 {
+		text-align: left;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 50px;
+		font-size: 1.1em;
+		color: #E4E4E4;
+		
+	}
+	
+	.login_btn {
+		padding-top: 40px;
+		text-align: center;
+	}
+	
+	.login_btn button {
+		background-color: #019390;
+		width: 77%;
+		height: 60px;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		color: #fafafa;
+		font-size: 1.2em;
+	}
+	
+	
+	
+	
+}

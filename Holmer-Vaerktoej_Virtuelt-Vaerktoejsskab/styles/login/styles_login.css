@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: 'Roboto', sans-serif; 
+	background: #353535;
+}
+
+
+
+/* TABLET LIGGENDE HERUNDER */ 
+
+
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+
+	.logo {
+		text-align: center;
+		padding-top: 80px;
+	}
+
+	.logo img {
+		width: 80%;
+	}
+	
+	.form_wrapper {
+		padding-top: 320px;
+	}
+
+	form {
+		text-align: center;
+	}
+
+	form .username input {
+		width: 70%;
+		height: 50px;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 42px;
+		outline: none;
+		padding-left: 17px;
+		font-size: 1.2em;
+	}
+
+
+	form .password input {
+		width: 70%;
+		height: 50px;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 42px;
+		outline: none;
+		padding-left: 17px;
+		font-size: 1.2em;
+	}
+
+	form .submit button {
+		background-color: #019390;
+		width: 72%;
+		height: 70px;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		
+	}
+
+	button{
+		color: #fafafa;
+		font-size: 1.5em;
+		text-transform: uppercase;
+	}
+	
+	p {
+		color: #E4E4E4;
+		font-size: 1.3em;
+		text-align: center;
+		margin-top: 310px;
+		line-height: 14px;
+		padding-bottom: 20px;
+	}
+	
+	a {
+		color: #E4E4E4;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET HERUNDER */ 
+
+
+@media screen and (max-width: 1023px) and (min-width: 737px) {
+
+	.logo {
+		text-align: center;
+		padding-top: 175px;
+	}
+
+	.logo img {
+		width: 80%;
+	}
+	
+	.form_wrapper {
+		padding-top: 355px;
+	}
+
+	form {
+		text-align: center;
+	}
+
+	form .username input {
+		width: 70%;
+		height: 50px;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 42px;
+		outline: none;
+		padding-left: 17px;
+		font-size: 1.2em;
+	}
+
+
+	form .password input {
+		width: 70%;
+		height: 50px;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 42px;
+		outline: none;
+		padding-left: 17px;
+		font-size: 1.2em;
+	}
+
+	form .submit button {
+		background-color: #019390;
+		width: 73%;
+		height: 70px;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		
+	}
+
+	button{
+		color: #fafafa;
+		font-size: 1.5em;
+		text-transform: uppercase;
+	}
+	
+	p {
+		color: #E4E4E4;
+		font-size: 1.2em;
+		text-align: center;
+		margin-top: 300px;
+		line-height: 14px;
+		padding-bottom: 20px;
+	}
+	
+	a {
+		color: #E4E4E4;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* SMARTPHONE LIGGENDE HERUNDE */
+
+
+@media screen and (max-width: 736px) and (min-width: 416px) {
+	
+	.logo {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.logo img {
+		width: 65%;
+	}
+	
+	.form_wrapper {
+		padding-top: 125px;
+	}
+
+	form {
+		text-align: center;
+	}
+
+	form .username input {
+		width: 60%;
+		height: 35px;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 22px;
+		outline: none;
+		padding-left: 17px;
+		font-size: 0.9em;
+	}
+
+
+	form .password input {
+		width: 60%;
+		height: 35px;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 22px;
+		outline: none;
+		padding-left: 17px;
+		font-size: 0.9em;
+	}
+
+	form .submit button {
+		background-color: #019390;
+		width: 63%;
+		height: 60px;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+		
+	}
+
+	button{
+		color: #fafafa;
+		font-size: 1.2em;
+		text-transform: uppercase;
+	}
+	
+	p {
+		color: #E4E4E4;
+		font-size: 0.5em;
+		text-align: center;
+		margin-top: 210px;
+		padding-bottom: 30px;
+	}
+	
+	a {
+		color: #E4E4E4;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* SMARTPHONE HERUNDER */
+
+
+
+@media screen and (max-width: 415px) and (min-width: 320px) {
+
+	.logo {
+		text-align: center;
+		padding-top: 105px;
+	}
+
+	.logo img {
+		width: 95%;
+	}
+
+	.form_wrapper {
+		padding-top: 210px;
+	}
+
+	form {
+		text-align: center;
+	}
+
+	form .username input {
+		width: 72%;
+		height: 35px;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 22px;
+		outline: none;
+		padding-left: 17px;
+		font-size: 0.9em;
+	}
+
+
+	form .password input {
+		width: 72%;
+		height: 35px;
+		border: none;
+		border-radius: 5px;
+		margin-bottom: 22px;
+		outline: none;
+		padding-left: 17px;
+		font-size: 0.9em;
+	}
+
+	form .submit button {
+		background-color: #019390;
+		width: 77%;
+		height: 60px;
+		border: none;
+		border-radius: 5px;
+		outline: none;
+	}
+
+	button{
+		color: #fafafa;
+		font-size: 1.2em;
+		text-transform: uppercase;
+	}
+	
+	p {
+		color: #E4E4E4;
+		font-size: 0.9em;
+		text-align: center;
+		margin-top: 220px;
+	}
+	
+	a {
+		color: #E4E4E4;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
